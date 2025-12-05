@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "FurniStore - Discover Quality Furniture",
   description: "FurniStore connects you to trusted local furniture makers and sellers in Oroquieta City. Explore quality pieces, compare prices, and view items in AR.",
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
